@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ 
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    
+ <link rel="stylesheet" href="style.css"/>
+ 
+  <title>Music Player</title>
+ </head>
+ 
+ <body>
+  <div class="main-div">
+   <div class="music-div">
+    <h2 id="title">Aabad Barbad</h2>
+    <h3 id="artist">Arijit Singh</h3>
+<div class="img-cont">
+        <img src="img_1.jpg"  />
+    </div>
+   <audio src="song_1.mp3 " id="aud"></audio>
+   
+  
+   <div class="music-contrl">
+
+  <i class="fas fa-backward" id="prev" title="prev" onclick="prevsong()"></i>
+  <i class="fas fa-play music-button" id="play" o onclick="playsongs()"></i>
+  <i class="fas fa-forward" id="next" title="next" onclick="nextsong()"></i>
+    </div>
+     </div> 
+  </div>
+  
+  
+
+  
+  <script src="app.js" type="text/javascript" charset="utf-8"></script>
+ </body>
+</html>
